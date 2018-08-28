@@ -15,6 +15,8 @@ public class Driver {
 			
 			System.out.println("First Name:" +theStudent.getFirstName());
 			System.out.println("Last Name:" +theStudent.getLastName());
+
+			System.out.println("ID :" +theStudent.getId());
 		}
 		catch(Exception ex) {
 			ex.printStackTrace();
